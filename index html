@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Payout Restriction | Facebook</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 10px;
+    }
+
+    .logo {
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+      height: 40px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      max-width: 500px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 100%;
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 20px;
+    }
+
+    .card p {
+      color: #444;
+      font-size: 14px;
+    }
+
+    .support-box {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 20px 0;
+    }
+
+    .support-box img {
+      height: 36px;
+      margin-right: 15px;
+    }
+
+    .support-box span {
+      font-weight: bold;
+    }
+
+    .btn {
+      background-color: #1877f2;
+      color: white;
+      padding: 12px;
+      width: 100%;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #155ec1;
+    }
+
+    .footer {
+      margin-top: 30px;
+      color: #888;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico" alt="Facebook">
+  </div>
+
+  <div class="card">
+    <h2>Account will be deactivated</h2>
+    <p>
+      Your page or payout account has triggered a policy violation.  
+      We will immediately limit or disable payout access for non-compliance with our terms of service.
+    </p>
+    <p>
+      If you believe this is a mistake, you have 24 hours to verify and appeal. 
+      Failing to act will result in permanent restriction of your payout access.
+    </p>
+
+    <div class="support-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Meta_Platforms_Inc._logo.svg" alt="Meta Logo" />
+      <span>Facebook Payout Support</span>
+    </div>
+
+    <button class="btn">Get Started</button>
+  </div>
+
+  <div class="footer">
+    Meta © 2025
+  </div>
+</body>
+</html>
